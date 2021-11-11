@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am PhD candiate at [Institute of Theorectical Physics, Chinese Academy of Sciences](http://www.itp.cas.cn/), supervised by Professor [Pan Zhang](http://home.itp.ac.cn/~panzhang/). My research interests lie at the interdisciplinery field among Statitical Physics, Computational Quantum Physics and Tensor Network algorithms.
+I am a PhD candiate at [Institute of Theorectical Physics, Chinese Academy of Sciences](http://www.itp.cas.cn/), supervised by Professor [Pan Zhang](http://home.itp.ac.cn/~panzhang/). My research interests lie at the interdisciplinery field among Statitical Physics, Computational Quantum Physics and Tensor Network algorithms.
 
-Here you can find my [CV](files/paper1.pdf) and [Google Scholar Profile](https://scholar.google.com/citations?user=ZDEkIDsAAAAJ&hl).
+Here you can find my [CV](files/CV.pdf) and [Google Scholar Profile](https://scholar.google.com/citations?user=ZDEkIDsAAAAJ&hl).
 
 ## Research Highlights
 
