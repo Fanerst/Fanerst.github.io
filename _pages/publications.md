@@ -9,7 +9,7 @@ author_profile: true
 
 [2] Sujie Li, **Feng Pan**, Pengfei Zhou, and Pan Zhang, *"Boltzmann machines as two-dimensional tensor networks."* [Phys. Rev. B **104**, 075154 (2021)](https://link.aps.org/doi/10.1103/PhysRevB.104.075154).
 
-[3] **Feng Pan**, and Pan Zhang, *"Simulating the Sycamore quantum supremacy circuits."* [arxiv:2103.03074](https://arxiv.org/abs/2103.03074).
+[3] **Feng Pan**, and Pan Zhang, *"Simulation of Quantum Circuits Using the Big-Batch Tensor Network Method."* [Phys. Rev. Lett. **128**, 030501 (2022)](https://doi.org/10.1103/PhysRevLett.128.030501).
 
 [4] **Feng Pan**, Pengfei Zhou, Hai-Jun Zhou, and Pan Zhang, *"Solving statistical mechanics on sparse graphs with feedback-set variational autoregressive networks."* [Phys. Rev. E **103**, 012103 (2021)](https://link.aps.org/doi/10.1103/PhysRevE.103.012103).
 
