@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-[1] **Feng Pan**, Keyang Chen, and Pan Zhang, *"Solving the sampling problem of the Sycamore quantum supremacy circuits."* [arxiv:2111.03011](https://arxiv.org/abs/2111.03011).
+[1] **Feng Pan**, Keyang Chen, and Pan Zhang, *"Solving the Sampling Problem of the Sycamore Quantum Circuits."* [Phys. Rev. Lett. **129**, 090502](https://doi.org/10.1103/PhysRevLett.129.090502).
 
 [2] Sujie Li, **Feng Pan**, Pengfei Zhou, and Pan Zhang, *"Boltzmann machines as two-dimensional tensor networks."* [Phys. Rev. B **104**, 075154 (2021)](https://link.aps.org/doi/10.1103/PhysRevB.104.075154).
 
