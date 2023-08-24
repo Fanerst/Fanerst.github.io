@@ -8,11 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I got my PhD degree in July 2022 from [Institute of Theoretical Physics, Chinese Academy of Sciences](http://www.itp.cas.cn/), supervised by Professor [Pan Zhang](http://home.itp.ac.cn/~panzhang/). My research interests lie at the interdisciplinary field among Statistical Physics, Computational Quantum Physics and Tensor Network algorithms.
+I am currently working as a Research Fellow at [Centre for Quantum Technologies, National University of Singapore](https://www.quantumlah.org/), collaborate with Prof. [Patrick Rebentrost](https://www.quantumlah.org/people/profile/Frank-Patrick). 
+
+I got my PhD degree in July 2022 from [Institute of Theoretical Physics, Chinese Academy of Sciences](http://www.itp.cas.cn/), supervised by Prof. [Pan Zhang](http://home.itp.ac.cn/~panzhang/). My research interests lie at the interdisciplinary field among Statistical Physics, Quantum Computing and Tensor Network algorithms.
 
 Here you can find my [CV](files/CV.pdf) and [Google Scholar Profile](https://scholar.google.com/citations?user=ZDEkIDsAAAAJ&hl).
 
-**Notification**: the former ITP email address (panfeng@itp.ac.cn/panfeng@mail.itp.ac.cn) will soon be taken back, contact me through fengpan1994@gmail.com instead.
+<!--  **Notification**: the former ITP email address (panfeng@itp.ac.cn/panfeng@mail.itp.ac.cn) will soon be taken back, contact me through fengpan1994@gmail.com instead. -->
 
 ## Research Highlights
 
