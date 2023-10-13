@@ -23,6 +23,9 @@ author_profile: true
 
 [8] Hanyan Cao, **Feng Pan**, Yijia Wang, and Pan Zhang, *"qecGPT: decoding Quantum Error-correcting Codes with Generative Pre-trained Transformers."* [arxiv:2307.09025](https://arxiv.org/abs/2307.09025).
 
+[9] **Feng Pan**, Hanfeng Gu, Lvlin Kuang, Bing Liu, Pan Zhang, *"Efficient Quantum Circuit Simulation by
+Tensor Network Methods on Modern GPUs."* [arxiv:2310.03978](https://arxiv.org/abs/2310.03978).
+
 
 
 <!-- {% if author.googlescholar %}
