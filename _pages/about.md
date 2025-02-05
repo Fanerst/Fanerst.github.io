@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am currently working as a Research Fellow at [Centre for Quantum Technologies, National University of Singapore](https://www.quantumlah.org/), collaborating with Prof. [Patrick Rebentrost](https://www.quantumlah.org/people/profile/Frank-Patrick). 
+I am currently working as a Tenure Track Assistant Professor at [Science Mathematics and Technology Cluster](https://smt.sutd.edu.sg/) of Singapore University of Technology and Design. 
+
+Previously I was a Research Fellow at [Centre for Quantum Technologies, National University of Singapore](https://www.quantumlah.org/), collaborating with Prof. [Patrick Rebentrost](https://www.quantumlah.org/people/profile/Frank-Patrick). 
 
 I got my PhD degree in July 2022 from [Institute of Theoretical Physics, Chinese Academy of Sciences](http://www.itp.cas.cn/), supervised by Prof. [Pan Zhang](http://home.itp.ac.cn/~panzhang/). My research interests lie at the interdisciplinary field among Statistical Physics, Quantum Computing and Tensor Network algorithms.
 
