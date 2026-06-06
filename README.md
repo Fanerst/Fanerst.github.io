@@ -34,7 +34,7 @@ bundle exec jekyll build
 - Homepage text: `_pages/home.md`
 - Research areas: `_pages/research.md`
 - Open positions: `_pages/positions.md`
-- News: `_data/news.yml` (top 3 appear on the home page; all appear at `/news/`)
+- News: `_data/news.yml` (up to 20 appear on the home page; all appear at `/news/`)
 - Talks: `_data/talks.yml`
 - Service: `_data/service.yml`
 - Publications: `assets/ref.bib`

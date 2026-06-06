@@ -1,13 +1,13 @@
-# News items shown on the home page sidebar.
-# Keep newest items first. The 3 most recent are shown on the home page; all appear on /news/.
+# News items shown on the home page and news archive.
+# Keep newest items first. Up to 20 items are shown on the home page; all appear on /news/.
 # Each entry needs: date, headline
 - date: 6 June, 2026
   headline: "The group welcomes inquiries from PhD applicants, research assistants, visiting students, and collaborators."
 
-- date: May 2026
+- date: 2 June, 2026
   headline: "Feng Pan gave an invited talk at Google Quantum AI on differentiable maximum likelihood noise estimation for quantum error correction."
 
-- date: 2026
+- date: May,2026
   headline: "Feng Pan is serving as a program committee member for the Asian Conference of Quantum Information Science 2026."
 
 - date: 2025

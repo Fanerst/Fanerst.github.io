@@ -29,10 +29,3 @@ The group is especially interested in problems where mathematical structure and 
 <img src="{{ '/images/banner.jpg' | relative_url }}" alt="Computational physics banner" loading="lazy">
 <div class="banner-caption">Computational physics, tensor networks, and quantum algorithms as shared language between theory and simulation.</div>
 </div>
-
-### About the group
-
-I am a tenure-track Assistant Professor in the Science, Mathematics and Technology Cluster at the Singapore University of Technology and Design.
-Previously I was a Research Fellow at the Centre for Quantum Technologies, National University of Singapore, and I received my PhD from the Institute of Theoretical Physics, Chinese Academy of Sciences.
-
-Our research asks how ideas from statistical physics and tensor networks can make hard computational problems tractable, and how quantum computing can be understood through the lens of algorithms, simulation, and inference.
