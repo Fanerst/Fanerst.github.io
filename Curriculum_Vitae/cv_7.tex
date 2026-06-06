@@ -1,0 +1,397 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same
+% directory as this .tex file. These files provide the resume style and themes
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans,colorlinks]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\usepackage{multicol}
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage[hyperref]{}
+\usepackage[scale=0.92]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\definecolor{color1}{rgb}{0.22,0.45,0.70}
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Feng} % Your first name
+\familyname{PAN} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+\address{8 Somapah Rd}{Singapore 487372}
+% \mobile{(+86)156 5186 2330}
+\mobile{(+65) 8039 1807}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{feng\_pan@sutd.edu.sg}
+\homepage{fanerst.github.io/}{fanerst.github.io/} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+% \homepage{scholar.google.com/citations?user=ZDEkIDsAAAAJ\&hl=en}{Google Scholar}
+\photo[80pt][0.4pt]{pictures/faculty-pan-feng} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\definecolor{color1}{rgb}{0.22,0.45,0.70}% light blue
+\hypersetup{urlcolor=color1}
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+%
+%\makelettertitle % Print letter title
+%
+%\lipsum[1-2] % Dummy text
+%\lipsum[4] % Dummy text
+%
+%\makeletterclosing % Print letter signature
+%
+%\newpage
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+\section{Research Interests}
+
+\cventry{}{Statistical Physics, Tensor Network Algorithm, Machine Learning, AI for Quantum, \newline Quantum Computational Architecture, Quantum Error Correction}{}{}{}{}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Academic Positions}
+
+%\subsection{%Vocational}
+% \cventry{2016.3-2016.7}{Teaching Assistant}{Nanjing University of Aeronautics and Astronautics}{\newline Thermodynamics and Statistical Mechanics}{}{}
+% {\begin{itemize}
+% \item Implemented various image segmentation models like U-Net, SegNet, etc.
+% \item Currently working on satellite imagery.
+% \item Created tests and automation scripts.
+% \end{itemize}}
+
+\cventry{Jan 2025 - Present}{Assistant Professor}{Science, Mathematics and Technology Cluster}{Singapore University of Technology and Design}{}{}{}
+
+\cventry{Aug 2023 - Dec 2024}{Postdoctoral Research Fellow}{Centre for Quantum Technologies, National University of Singapore}{\newline Advisor: Prof. Patrick Rebentrost}{}{}
+
+\section{Visiting Positions}
+
+\cventry{Feb 2023 - Jul 2023}{Visiting Scholar}{CAS Center For Excellence in Quantum Information and Quantum Physics, University of Science and Technology of China}{\newline Host: Prof. Chaoyang Lu and Prof. Jianwei Pan}{}{}
+
+
+\cventry{July 2022 - Jan 2023}{Visiting Scholar}{Institute of Theoretical Physics, Chinese Academy of Sciences}{\newline Host: Prof. Pan Zhang}{}{}
+
+\cventry{Sep 2015 - Jan 2016}{Visiting Student}{Massachusetts Institute of Technology, Cambridge}{\newline Physics Department}{}{}{}  %
+
+% \cventry{Expected to start in Sep 2022}{Senior Postdoctoral Fellow}{Perimeter Institute for Theoretical Physics}{\newline Advisor: Prof. Michele Mosca}{\newline Postponed due to VISA issue, which results in the above two visiting scholar experience}{}
+
+% \cventry{May 2018--July 2018}{Data Science Intern}{\textsc{Antriex IT Services}}{}{}{Developed various Trading strategies involving Bollinger Bands and other technical trade indicators with the help of TA-Lib library.
+% \begin{itemize}
+% \item Implemented research papers based on \textsc{Finance and Quant trading}.
+% \item Wrote a \textsc{MLP classifier} to generate trade signals that increased the accuracy by 1.02\%.
+% \item Implemented LSTM for stock price prediction.
+% \end{itemize}}
+
+%------------------------------------------------
+
+%\cventry{2011--2012}{Summer Intern}{\textsc{Lehman Brothers}}{Los Angeles}{}{Rated "truly distinctive" for Analytical Skills and Teamwork.}
+
+%------------------------------------------------
+
+% \cventry{Jan 2019--Ongoing}{Weakly Supervised Semantic Segmentation using Adversarial Erasing}{\textit{Prof. Jose Dolz, Ecole de
+% Technologie Superieure, Canada}}{}{}{
+% \begin{itemize}
+% \item Implemented Weakly Supervised Semantic Segmentaion papers using PASCAL VOC 2012 dataset.
+% \item Working on solving biomedical health problems with MRI and CT images.
+% \item Paper in review at The IEEE International Symposium on Biomedical Imaging (ISBI).
+% \end{itemize}}
+
+% \cventry{May 2018-- Nov 2018}{Metal Morphology Classification using Deep Learning}{\textit{Prof. K.S. Suresh, IIT Roorkee}}{}{}{
+% \begin{itemize}
+% \item Collected Iron and Titanium metal microstructures images.
+% \item Implemented a model with attention for classification of images into respective classes of microstructure.
+% \item Used the weights from various Convolutional layers of VGG16 model for t-SNE plots.
+% \end{itemize}}
+
+
+% \cventry{Aug 2018}{Neural Arithmetic Logic Units \href{https://github.com/sinAshish/NALU-Keras}{[Code]}}{\textit{Self-motivated}}{}{}{
+% \begin{itemize}
+% \item Implemented the paper \textit{Neural Arithmetic Logic Units} by Trask et. al. in Keras.
+% \item The code does \textit{arithmetic operations} only, for now.
+% \end{itemize}}
+
+% \cventry{Aug 2018-- Oct 2018}{MURA (musculoskeletal radiographs) X-Ray Classification \href{https://github.com/sinAshish/Stanford-MURA}{[Code]}}{\textit{Self-motivated}}{}{}{
+% \begin{itemize}
+% \item Implemented the original paper to reproduce the results.
+% \item Optimized  the hyperparameters to beat the baseline score.
+% \item Used pretrained models like DenseNet50, ResNet169 among others with attention for classification.
+% \end{itemize}}
+
+% \cventry{Oct 2018}{Dynamic Memory Networks Plus \href{https://github.com/sinAshish/dmn-plus}{[Code]}}{\textit{Self-motivated}}{}{}{
+% \begin{itemize}
+% \item Implemented the paper \textit{Dynamic Memory Networks for Visual and Textual Question Answering} in PyTorch.
+% \item Model trained on BaBI dataset.
+% \end{itemize}}
+
+% \cventry{May 2018--  Aug 2018}{Simplifying Rough Sketches Using Deep Learning \href{https://github.com/sinAshish/Rough-Sketch-Simplification-Using-FCNN}{[Code]}}{\textit{Self-motivated}}{}{}{
+% \begin{itemize}
+% \item Implemented the paper \textit{Learning to Simplify: Fully Convolutional Networks for Rough Sketch Cleanup} by Simo-Serra et. al in PyTorch.
+% \item Implemented an Encoder-Decoder architecture.
+% \end{itemize}}
+
+% \cventry{ Nov 2018}{Quora Insincere Question Classification}{\textit{Self-motivated}}{}{}{
+% \begin{itemize}
+% \item Implemented a CNN-LSTM architecture with attention to detect toxic content in online media.
+% \item Achieved an F1-Score of 0.73.
+% \end{itemize}}
+
+%\cventry{ Mar 2017}{Gaana (Songs) Downloader \href{https://github.com/sinAshish/Gaana-Downloader}{[Code]}}{\textit{Self-motivated}}{}{}{
+%\begin{itemize}
+%\item A script to download all the songs from \href{https://www.gaana.com}{gaana.com} by just entering the album name.
+%\end{itemize}}
+%
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{Sep 2017 - Jul 2022}{Institute of Theoretical Physics, Chinese Academy of Sciences, Beijing}{\newline PhD in Theoretical Physics}{Supervisor: Prof. Pan Zhang}{}{}  % Arguments not required can be left empty
+% \cventry{Sep 2013 - Jan 2014}{National Tsing Hua University, Hsinchu}{\newline Exchange Student}{Mathematics \& Physics}{}{}  %
+\cventry{Sep 2012 - Jun 2016}{Nanjing University of Aeronautics and Astronautics, Nanjing}{\newline Bachelor of Science}{Mathematics \& Physics}{}{}  %
+%\section{%Masters Thesis}
+
+%\cvitem{Title}{\emph{Money Is The Root Of All Evil -- Or Is It?}}
+%\cvitem{Supervisors}{Professor James Smith \& Associate Professor Jane Smith}
+%\cvitem{Description}{This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I found that it has, in fact, not.}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Funding}
+\cventry{2026}{Advanced Quantum Algorithms and Solutions}
+{\newline Singapore Flagship Project under National Quantum Strategy, Pillar 4 Lead}{49 million SGD}{2026-2031}{}
+
+\cventry{2026}{Quantum-Enhanced Machine Learning Solvers for Optimisation
+Problems in Supply Chains and Logistics}
+{\newline MTC Young Individual Research Grant,}{300K SGD}{2026-2029}{}
+
+\cventry{2025}{Tensor-Network solutions to large-scale combinatorial optimization problems}{\newline NQCH-NVIDIA collaboration under Quantum Engineering Program 3.0 sub-project, 697K SGD (including NVIDIA EOM). }{2026-2027}{}{}
+
+\cventry{2025}{Towards implementing and decoding of logical quantum algorithms on present-day quantum hardware}{\newline MOE SKI Grant, 100K SGD}{2025-2028}{}{}
+
+
+
+
+\section{Awards}
+
+\cventry{2023}{Second Prize, Beijing Natural Science Award}{\newline The highest scientific honor for researchers in Beijing; awarded annually to only 13 First Prize and 39 Second Prize recipients}{}{}{}
+
+\cventry{2023}{Outstanding Doctoral Dissertation Award, Beijing}{\newline Awarded to the top 0.1\% of doctoral dissertations across Beijing}{}{}{}
+
+\cventry{2023}{Outstanding Doctoral Dissertation Award, Chinese Academy of Sciences}{\newline Awarded to the top 0.5\% of doctoral dissertations at the Chinese Academy of Sciences}{}{}{}
+
+\cventry{2021}{National Scholarship for Doctoral Students, Ministry of Education of China}{\newline The highest national honor for doctoral students in China; awarded to the top 1\%}{}{}{}
+
+\cventry{2021}{Principal Scholarship, Chinese Academy of Sciences}{\newline The highest honor for doctoral students within the Chinese Academy of Sciences; awarded to the top 1.25\%}{}{}{}
+
+\cventry{2013}{National Scholarship for Bachelor Students, Ministry of Education of China}{\newline The highest national honor for undergraduate students in China; awarded to the top 1\%}{}{}{}
+
+\section{Selected Talks}
+
+\cvitem{Mar 2026}{\textbf{Differentiable Maximum Likelihood Noise Estimation for Quantum Error Correction} \newline Invited talk at Quantinuum, London, UK.}
+
+\cvitem{Dec 2025}{\textbf{Tensor Networks as a Unified Language: From Quantum Computing to Artificial Intelligence} \newline Invited talk at Quantum Algorithms and Optimization in Athens, Athens, Greece \href{https://quantum-in-athens.com/}{Talk link}.}
+
+\cvitem{Oct 2025}{\textbf{Machine Learning Solutions to Combinatorial Optimization Problems: Insights from Statistical Physics} \newline Invited talk at The 16th Asia Pacific Physics Conference, Haikou, China.}
+
+\cvitem{Aug 2025}{\textbf{Advancements in Decoding for Quantum Error Correction} \newline Invited talk at The Conference of Condensed Matter Physics, Liyang, China.}
+
+\cvitem{Feb 2024}{\textbf{Arbitrary Tensor Network Algorithm: Theory, Methods and Applications} \newline Invited talk at IPAM workshop TNK 2024, UCLA, Los Angeles, USA, \href{https://www.youtube.com/watch?v=dmSqKOhc0Uk}{Talk link}.}
+
+\cvitem{Oct 2023}{\textbf{Classical Simulation of Quantum Circuits by Arbitrary Tensor Network Algorithms} \newline Prof. Jens Eisert Group, Online.}
+
+\cvitem{Sep 2023}{\textbf{Classical Simulation of Quantum Circuits by Arbitrary Tensor Network Algorithms} \newline Centre for Quantum Technologies, Singapore.}
+
+\cvitem{Nov 2021}{\textbf{Contracting Arbitrary Tensor Networks: Approximate and Exact Approach with Applications in Graphical Models and Quantum Circuit Simulations} \newline Perimeter Institute, Waterloo, Canada, \href{https://pirsa.org/21110038?__hstc=261081490.2636b89e31c93bb3664e364498ed7ca7.1710253960379.1710253960379.1710253960379.1&__hssc=261081490.3.1710253960379&__hsfp=575522813}{Talk link}.}
+
+\section{Service}
+
+\cvitem{Journal Referee}{Physical Review Letters, Physical Review A, Physical Review B, Quantum, Neural Computing}
+
+\cvitem{Conference Referee}{Conference on the Theory of Quantum Computation, Communication and Cryptography (TQC)}
+
+\section{Patents}
+
+\cvitem{[1]}{Pan Zhang, \textbf{Feng Pan}, Methods, devices and quantum virtual machines for simulating probabilistic amplitudes of quantum states, CN114254755, 2022.}
+
+\section{Publications}
+\cvitem{}{I have authored 12 journal articles and 1 conference proceeding, in addition to 7 preprint papers. Notably, 5 of these articles have been published in \textbf{Physical Review Letters}, the leading journal in the field of Physics, and one in \textbf{Nature Computational Science}. Detailed information about my publications can be found on \href{https://scholar.google.com/citations?user=ZDEkIDsAAAAJ\&hl=en}{Google Scholar}.}
+
+% \cvitem{}{\textcolor{color1}{\large\textbf{Peer-reviewed Journal Articles:}}}
+
+\cvitem{[1]}{\textbf{Feng Pan}, Hanfeng Gu, Paul Springer, and Xipeng Li, \textit{Parallelizing Large-Scale Tensor Network Contraction on Multiple GPUs}, \href{https://arxiv.org/abs/2606.01852}{arXiv:2606.01852}.}
+
+\cvitem{[2]}{Hanyan Cao, Ge Yan, Yuxuan Du, and \textbf{Feng Pan}, \textit{Maximum Likelihood Decoding of Quantum Error Correction Codes}, \href{https://arxiv.org/abs/2605.17230}{arXiv:2605.17230}.}
+
+\cvitem{[3]}{Hanyan Cao, Dongyang Feng, Cheng Ye, and \textbf{Feng Pan}, \textit{Differentiable Maximum Likelihood Noise Estimation for Quantum Error Correction}, \href{https://arxiv.org/abs/2602.19722}{arXiv:2602.19722}.}
+
+\cvitem{[4]}{Yijia Wang, Xuanzhao Gao, Pan Zhang, \textbf{Feng Pan}, and Jinguo Liu, \textit{Branch-and-Bound Tensor Networks for Exact Ground-State Characterization}, \href{https://arxiv.org/abs/2602.05470}{arXiv:2602.05470}.}
+
+\cvitem{[5]}{Hanyan Cao, Yijia Wang, \textbf{Feng Pan}, and Pan Zhang, \textit{Integrating Neural Networks and Tensor Networks for Computing Free Energy}, \href{https://doi.org/10.1088/1572-9494/adc6f8}{Communications in Theoretical Physics \textbf{77}, 095602 (2025)}.}
+
+\cvitem{[6]}{Hanyan Cao, Shoukuan Zhao, Dongyang Feng, Zisong Shen, Haisheng Yan, Tang Su, Weijie Sun, Huikai Xu, \textbf{Feng Pan}, Haifeng Yu, and Pan Zhang, \textit{Exact Decoding of Quantum Error-Correcting Codes}, \href{https://doi.org/10.1103/PhysRevLett.134.190603}{Phys. Rev. Lett. \textbf{134}, 190603 (2025)} (Editors' Suggestion).}
+
+\cvitem{[7]}{Zi-Song Shen, \textbf{Feng Pan}, Yao Wang, Yi-Ding Men, Wen-Biao Xu, Man-Hong Yung, and Pan Zhang, \textit{Free-Energy Machine for Combinatorial Optimization}, \href{https://www.nature.com/articles/s43588-025-00782-0}{Nature Computational Science \textbf{5}, 322-332 (2025)}.}
+
+\cvitem{[8]}{Hanyan Cao, \textbf{Feng Pan}, Dongyang Feng, Yijia Wang, and Pan Zhang, \textit{Generative Decoding for Quantum Error-Correcting Codes}, \href{https://arxiv.org/abs/2503.21374}{arXiv:2503.21374}.}
+
+\cvitem{[9]}{Xian-He Zhao, Han-Sen Zhong, \textbf{Feng Pan}, et al., \textit{Leapfrogging Sycamore: Harnessing 1432 GPUs for 7x Faster Quantum Random Circuit Sampling}, \href{https://doi.org/10.1093/nsr/nwae317}{National Science Review \textbf{12}, nwae317 (2025)}.}
+
+\cvitem{[10]}{Rong Fu, Zhongling Su, Han-Sen Zhong, Xiti Zhao, Jianyang Zhang, \textbf{Feng Pan}, et al., \textit{Surpassing Sycamore: Achieving Energetic Superiority Through System-Level Circuit Simulation}, \href{https://doi.org/10.1109/SC41406.2024.00085}{SC24: International Conference for High Performance Computing, Networking, Storage and Analysis (2024)}.}
+
+\cvitem{[11]}{\textbf{Feng Pan}, Hanfeng Gu, Lvlin Kuang, Bing Liu, and Pan Zhang, \textit{Efficient Quantum Circuit Simulation by Tensor Network Methods on Modern GPUs}, \href{https://doi.org/10.1145/3696465}{ACM Transactions on Quantum Computing \textbf{5}, 1-26 (2024)}.}
+
+\cvitem{[12]}{Yijia Wang, Yuwen Ebony Zhang, \textbf{Feng Pan}, and Pan Zhang, \textit{Tensor Network Message Passing}, \href{https://doi.org/10.1103/PhysRevLett.132.117401}{Phys. Rev. Lett. \textbf{132}, 117401 (2024)} (Editors' Suggestion).}
+
+\cvitem{[13]}{Hanyan Cao, \textbf{Feng Pan}, Yijia Wang, and Pan Zhang, \textit{qecGPT: Decoding Quantum Error-Correcting Codes with Generative Pre-Trained Transformers}, \href{https://arxiv.org/abs/2307.09025}{arXiv:2307.09025}.}
+
+\cvitem{[14]}{Naixu Guo, \textbf{Feng Pan}, and Patrick Rebentrost, \textit{Estimating Properties of a Quantum State by Importance-Sampled Operator Shadows}, \href{https://arxiv.org/abs/2305.09374}{arXiv:2305.09374}.}
+
+\cvitem{[15]}{\textbf{Feng Pan}, Keyang Chen, and Pan Zhang, \textit{Solving the Sampling Problem of the Sycamore Quantum Circuits}, \href{https://doi.org/10.1103/PhysRevLett.129.090502}{Phys. Rev. Lett. \textbf{129}, 090502 (2022)} (Editors' Suggestion).}
+
+\cvitem{[16]}{\textbf{Feng Pan}, and Pan Zhang, \textit{Simulation of Quantum Circuits Using the Big-Batch Tensor Network Method}, \href{https://link.aps.org/doi/10.1103/PhysRevLett.128.030501}{Phys. Rev. Lett. \textbf{128}, 030501 (2022)} (Editors' Suggestion).}
+\cvitem{}{Blog discussions: \href{https://scottaaronson.blog/?p=5371}{\textbf{Scott Aaronson}}, \href{https://gilkalai.wordpress.com/2021/03/10/amazing-feng-pan-and-pan-zhang-announced-a-way-to-spoof-classically-simulate-the-googles-quantum-supremacy-circuit/?fbclid=IwAR3zikje19iFnrs66NBt6mLYBWz1SEbiwmKg2lVVS88ouLSuBtK09ul-cwI}{\textbf{Gil Kalai}}.}
+
+\cvitem{}{Media highlights for item [15]:  \href{https://www.science.org/content/article/ordinary-computers-can-beat-google-s-quantum-computer-after-all}{\textbf{Science}}, \href{https://thequantuminsider.com/2022/08/04/researchers-use-classical-supercomputer-to-challenge-googles-quantum-supremacy-claim/}{\textbf{The Quantum Insider}}, \href{https://www.newscientist.com/article/2333837-googles-quantum-supremacy-challenged-by-ordinary-computers-for-now/}{\textbf{New Scientist}}.}
+% \cvitem{}{In this work, we classically reproduce the exactly same computational task that Google did with their Sycamore quantum circuits and the simulation time is comparable, which challenges the claim of quantum supremacy with Sycamore circuits.}
+
+\cvitem{[17]}{Sujie Li, \textbf{Feng Pan}, Pengfei Zhou, and Pan Zhang, \textit{Boltzmann Machines as Two-Dimensional Tensor Networks}, \href{https://link.aps.org/doi/10.1103/PhysRevB.104.075154}{Phys. Rev. B \textbf{104}, 075154 (2021)}.}
+
+\cvitem{[18]}{\textbf{Feng Pan}, Pengfei Zhou, Hai-Jun Zhou, and Pan Zhang, \textit{Solving Statistical Mechanics on Sparse Graphs with Feedback-Set Variational Autoregressive Networks}, \href{https://link.aps.org/doi/10.1103/PhysRevE.103.012103}{Phys. Rev. E \textbf{103}, 012103 (2021)}.}
+
+\cvitem{[19]}{\textbf{Feng Pan}, Pengfei Zhou, Sujie Li, and Pan Zhang, \textit{Contracting Arbitrary Tensor Networks: General Approximate Algorithm and Applications in Graphical Models and Quantum Circuit Simulations}, \href{https://link.aps.org/doi/10.1103/PhysRevLett.125.060503}{Phys. Rev. Lett. \textbf{125}, 060503 (2020)}.}
+
+\cvitem{[20]}{Ya-Peng Hu, \textbf{Feng Pan}, and Xin-Meng Wu, \textit{The Effects of Massive Graviton on the Equilibrium Between the Black Hole and Radiation Gas in an Isolated Box}, \href{https://doi.org/10.1016/j.physletb.2017.07.013}{Phys. Lett. B \textbf{772}, 553-558 (2017)}.}
+
+
+
+
+
+
+
+
+
+
+
+% \cvitem{}{\textcolor{color1}{\large\textbf{Peer-reviewed Conference Proceedings:}}}
+
+
+
+% \cvitem{}{\textcolor{color1}{\large\textbf{Preprints:}}}
+
+
+
+
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+
+% \section{Skills}
+
+% \cvitem{Languages}{Python(A), C/C++(B), SQL(B)}
+% \cvitem{Frameworks}{Keras, PyTorch, Tensorflow}
+% \cvitem{WebD}{HTML/CSS, JavaScript, Jekyll}
+% \cvitem{Utilities}{Anaconda, Git, Sublime Text, Jupyter Notebook}
+% \cvitem{Communication}{English(SRW), Hindi(SRW), Japanese(SO)}
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+% \section{Extra Curriculars}
+
+% \cventry{Apr 2018}{Vision and Language Group}{\textit{Executive Member}}{}{}{ The group aims to foster Deep Learning research among students by conducting discussions and implementations on various Research Papers in the field of Computer Vision and NLP. I implemented a paper on DC-GAN and Neural Style Transfer.
+% }
+
+% \cventry{Oct 2017}{Enactus IIT Roorkee Chapter}{\textit{Executive Member}}{}{}{ The Campus group works towards Socail Entreprenership. I was a part of the Kaagaz Project.
+% }
+
+% \cventry{Jan 2018}{Academic Reinforcement Program}{\textit{Teaching Assistant}}{}{}{ Taught General Chemistry(CYN-006) to a batch of 86 students.
+% }
+% \cventry{Jul 2018}{Academic Reinforcement Program}{\textit{Teaching Assistant}}{}{}{ Taught Intro to Computer Programming in C++(MTN-103) to a batch of 80 students.
+% }
+
+% \cventry{Feb 2018}{Sangram IIT Roorkee}{\textit{Web Developer}}{}{}{ Developed the website for Sangram, IIT Roorkee, the official annual Sports fest of IIT Roorkee.
+% }
+
+% \cventry{Dec 2015}{Quizense}{\textit{Founder}}{}{}{ Started a start-up along with 3 others that aimed to conduct Quizzes for various schools and fests.
+% }
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Interests}
+
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+%\cvlistdoubleitem{Cycling}{Hiking}
+%\cvlistdoubleitem{Sketching}{Gaming}
+%\cvlistitem{Quizzing}
+%----------------------------------------------------------------------------------------
+
+% \section{References}
+
+% \begin{multicols}{2}
+% \cventry{}{K.S Suresh}{\newline Assistant Professor}{\newline Metallurgical and Materials Engg., IIT Roorkee}{\newline suresfmt@iitr.ac.in}{}
+% \columnbreak
+% \cventry{}{Anu Chandra}{\newline CEO}{\newline Ryelore AI}{\newline anu@ryelore.com}{ }
+% \end{multicols}
+%\cventry{}{Arpit Gupta}{\newline VP Engineering}{\newline Antriex IT Services}{\newline arpit.gupta@antmex.com}{}
+
+%\cventry{}{B.S.S Daniel}{\newline Professor}{\newline Metallurgical and Materials Engg., IIT Roorkee}{\newline s4danfmt@iitr.ac.in}{ }
+\end{document}

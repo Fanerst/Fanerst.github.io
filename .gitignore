@@ -7,3 +7,11 @@ Gemfile.lock
 package-lock.json
 node_modules/
 .worktrees/
+
+# LaTeX build outputs
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
