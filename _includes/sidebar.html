@@ -1,7 +1,5 @@
 <div class="profile-card">
-<a href="{{ '/about/' | relative_url }}">
 <img src="{{ '/images/' | append: site.photo | relative_url }}" class="profile-photo" alt="{{ site.name }}" loading="lazy">
-</a>
 <h4 class="profile-name">{{ site.name }}</h4>
 <p class="profile-title">{{ site.title }}</p>
 <p class="profile-institution">{{ site.institution }}</p>
@@ -16,10 +14,14 @@
 {% if site.links.linkedin and site.links.linkedin != "" %}<a href="{{ site.links.linkedin }}" class="icon-link" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>{% endif %}
 </div>
 {% if site.data.pi[0].educationshort %}
-<ul style="text-align: left; margin-top: var(--space-4); list-style: none; padding-left: 0;">
+<ul class="profile-meta-list">
 {% for education in site.data.pi[0].educationshort %}
-<li style="font-size: 0.875rem; color: var(--text-secondary); padding: var(--space-1) 0;">{{ education | replace: "-","&#8211;" }}</li>
+<li>{{ education | replace: "-","&#8211;" }}</li>
 {% endfor %}
 </ul>
 {% endif %}
+<div class="profile-summary">
+<p>I lead a computation-minded research group at SUTD working on tensor networks, quantum computing, statistical physics, machine learning, and quantum error correction.</p>
+<p>Prospective students, research fellows, visiting students, and collaborators are welcome to get in touch.</p>
+</div>
 </div>

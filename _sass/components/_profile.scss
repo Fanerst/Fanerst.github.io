@@ -73,4 +73,36 @@
     border-top: 1px solid var(--border-color);
     flex-wrap: wrap;
   }
+
+  .profile-meta-list {
+    list-style: none;
+    padding-left: 0;
+    margin: var(--space-4) 0 0;
+    text-align: left;
+
+    li {
+      color: var(--text-secondary);
+      font-size: 0.875rem;
+      line-height: 1.45;
+      padding: var(--space-1) 0;
+    }
+  }
+
+  .profile-summary {
+    margin-top: var(--space-5);
+    padding-top: var(--space-4);
+    border-top: 1px solid var(--border-color);
+    text-align: left;
+
+    p {
+      color: var(--text-secondary);
+      font-size: 0.875rem;
+      line-height: 1.6;
+      margin-bottom: var(--space-3);
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
 }
