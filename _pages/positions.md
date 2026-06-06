@@ -8,6 +8,11 @@ permalink: /positions/
 ## Positions
 
 <div class="section-card">
+<h3>Research Fellows</h3>
+<p>We are hiring research fellows with expertise in tensor network algorithms, quantum circuit simulation, quantum error correction and quantum optimization.</p>
+</div>
+
+<div class="section-card">
 <h3>PhD Students</h3>
 <p>We welcome inquiries from motivated students interested in tensor networks, quantum computing, statistical physics, quantum error correction, scientific machine learning, and high-performance scientific computing.</p>
 </div>
@@ -18,8 +23,8 @@ permalink: /positions/
 </div>
 
 <div class="section-card">
-<h3>Visiting Students and Collaborators</h3>
-<p>Short-term visits and collaborations are welcome when research interests align with the group directions.</p>
+<h3>Visiting Students and visitors</h3>
+<p>Short-term visits and visitors are welcome when research interests align with the group directions.</p>
 </div>
 
 <div class="callout callout-success" markdown="0">

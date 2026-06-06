@@ -22,7 +22,7 @@ The group is especially interested in problems where mathematical structure and 
 
 <div class="callout callout-success" markdown="0">
 <div class="callout-title"><i class="fa-solid fa-user-graduate callout-icon"></i> Recruiting students and research assistants</div>
-<p>Prospective PhD students, research assistants, visiting students, and collaborators are welcome to get in touch. Please send a CV and a short note about the research questions that excite you.</p>
+<p>Prospective research fellows, PhD students, research assistants & interns, visiting students are welcome to get in touch. Please send a CV and a short note about the research questions that excite you.</p>
 </div>
 
 <div class="banner-frame" markdown="0">
