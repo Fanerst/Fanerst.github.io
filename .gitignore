@@ -7,6 +7,7 @@ Gemfile.lock
 package-lock.json
 node_modules/
 .worktrees/
+tmp/
 
 # LaTeX build outputs
 *.aux
@@ -15,3 +16,4 @@ node_modules/
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+Curriculum_Vitae/cv_7.pdf

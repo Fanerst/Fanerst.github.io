@@ -1,0 +1,9 @@
+# Service items shown on the About page.
+- role: "PC Member"
+  organization: "Asian Conference of Quantum Information Science 2026"
+
+- role: "Journal Referee"
+  organization: "Physical Review Letters, Physical Review A, Physical Review B, Quantum, Neural Computing"
+
+- role: "Conference Referee"
+  organization: "Conference on the Theory of Quantum Computation, Communication and Cryptography (TQC)"

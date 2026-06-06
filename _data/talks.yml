@@ -1,0 +1,40 @@
+# Selected talks shown on /talks/.
+# Keep newest items first.
+- date: May 2026
+  title: "Differentiable Maximum Likelihood Noise Estimation for Quantum Error Correction"
+  venue: "Invited talk at Google Quantum AI."
+
+- date: Mar 2026
+  title: "Differentiable Maximum Likelihood Noise Estimation for Quantum Error Correction"
+  venue: "Invited talk at Quantinuum, London, UK."
+
+- date: Dec 2025
+  title: "Tensor Networks as a Unified Language: From Quantum Computing to Artificial Intelligence"
+  venue: "Invited talk at Quantum Algorithms and Optimization in Athens, Athens, Greece."
+  url: "https://quantum-in-athens.com/"
+
+- date: Oct 2025
+  title: "Machine Learning Solutions to Combinatorial Optimization Problems: Insights from Statistical Physics"
+  venue: "Invited talk at The 16th Asia Pacific Physics Conference, Haikou, China."
+
+- date: Aug 2025
+  title: "Advancements in Decoding for Quantum Error Correction"
+  venue: "Invited talk at The Conference of Condensed Matter Physics, Liyang, China."
+
+- date: Feb 2024
+  title: "Arbitrary Tensor Network Algorithm: Theory, Methods and Applications"
+  venue: "Invited talk at IPAM workshop TNK 2024, UCLA, Los Angeles, USA."
+  url: "https://www.youtube.com/watch?v=dmSqKOhc0Uk"
+
+- date: Oct 2023
+  title: "Classical Simulation of Quantum Circuits by Arbitrary Tensor Network Algorithms"
+  venue: "Prof. Jens Eisert Group, Online."
+
+- date: Sep 2023
+  title: "Classical Simulation of Quantum Circuits by Arbitrary Tensor Network Algorithms"
+  venue: "Centre for Quantum Technologies, Singapore."
+
+- date: Nov 2021
+  title: "Contracting Arbitrary Tensor Networks: Approximate and Exact Approach with Applications in Graphical Models and Quantum Circuit Simulations"
+  venue: "Perimeter Institute, Waterloo, Canada."
+  url: "https://pirsa.org/21110038"

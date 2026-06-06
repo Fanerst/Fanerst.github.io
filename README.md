@@ -16,13 +16,27 @@ bundle exec jekyll serve
 
 Then open <http://127.0.0.1:4000/>.
 
+For live reload while editing:
+
+```bash
+bundle exec jekyll serve --livereload
+```
+
+For a one-time build:
+
+```bash
+bundle exec jekyll build
+```
+
 ## Editing
 
 - Site identity, navigation, links, and theme color: `_config.yml`
 - Homepage text: `_pages/home.md`
 - Research areas: `_pages/research.md`
 - Open positions: `_pages/positions.md`
-- News: `_data/news.yml`
+- News: `_data/news.yml` (top 3 appear on the home page; all appear at `/news/`)
+- Talks: `_data/talks.yml`
+- Service: `_data/service.yml`
 - Publications: `assets/ref.bib`
 - CV: `papers/cv.pdf`
 - Profile image: `images/feng-pan.jpg`

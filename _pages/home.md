@@ -9,12 +9,12 @@ permalink: /
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
 <div class="chip-container" markdown="0">
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Tensor Networks</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Computing</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Statistical Physics</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Machine Learning</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Error Correction</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Scientific Computing</a>
+<a href="{{ '/research/' | relative_url }}" class="chip">Tensor Networks</a>
+<a href="{{ '/research/' | relative_url }}" class="chip">Quantum Computing</a>
+<a href="{{ '/research/' | relative_url }}" class="chip">Statistical Physics</a>
+<a href="{{ '/research/' | relative_url }}" class="chip">Machine Learning</a>
+<a href="{{ '/research/' | relative_url }}" class="chip">Quantum Error Correction</a>
+<a href="{{ '/research/' | relative_url }}" class="chip">Scientific Computing</a>
 </div>
 
 We develop algorithms and computational methods at the interface of statistical physics, quantum computing, tensor networks, and machine learning.
@@ -26,7 +26,7 @@ The group is especially interested in problems where mathematical structure and 
 </div>
 
 <div class="banner-frame" markdown="0">
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="Computational physics banner" loading="lazy">
+<img src="{{ '/images/banner.jpg' | relative_url }}" alt="Computational physics banner" loading="lazy">
 <div class="banner-caption">Computational physics, tensor networks, and quantum algorithms as shared language between theory and simulation.</div>
 </div>
 
