@@ -1,0 +1,14 @@
+# News items shown on the home page sidebar.
+# The 3 most recent are shown; all appear on /allnews.
+# Each entry needs: date, headline
+- date: 6 June, 2026
+  headline: "The group welcomes inquiries from PhD applicants, research assistants, visiting students, and collaborators."
+
+- date: 2025
+  headline: "New preprints on repetition-code decoding and free-energy machines for combinatorial optimization are listed on the publications page."
+
+- date: 2024
+  headline: "Tensor Network Message Passing appeared in Physical Review Letters."
+
+- date: 2024
+  headline: "Recent quantum circuit simulation work appeared in SC24, ACM Transactions on Quantum Computing, and National Science Review."

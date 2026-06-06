@@ -1,0 +1,10 @@
+# Optional: detailed education and bio for the About page.
+# Basic info (name, photo, links) now lives in _config.yml.
+# Delete this file if you only need the basics.
+
+- education:
+    - "(2022) Ph.D. Theoretical Physics, Institute of Theoretical Physics, Chinese Academy of Sciences"
+    - "Research Fellow, Centre for Quantum Technologies, National University of Singapore"
+  educationshort:
+    - "Ph.D. Theoretical Physics, ITP-CAS"
+    - "Research Fellow, CQT, NUS"
