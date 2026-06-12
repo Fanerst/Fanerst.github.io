@@ -8,6 +8,12 @@ permalink: /positions/
 ## Positions
 
 <div class="section-card">
+<h3>Current opening: Quantum Computing Research Positions</h3>
+<p>We are recruiting postdoctoral research fellows, PhD students, research assistants, interns, and visiting students in tensor networks, quantum circuit simulation, quantum error correction, quantum optimization, and high-performance scientific computing.</p>
+<p><a href="{{ '/positions/quantum-computing-recruitment/' | relative_url }}">Read the full announcement</a></p>
+</div>
+
+<div class="section-card">
 <h3>Research Fellows</h3>
 <p>We are hiring research fellows with expertise in tensor network algorithms, quantum circuit simulation, quantum error correction and quantum optimization.</p>
 </div>
