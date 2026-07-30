@@ -1,11 +1,27 @@
 # News items shown on the home page and news archive.
 # Keep newest items first. Up to 20 items are shown on the home page; all appear on /news/.
-# Each entry needs: date, headline
+# Each entry needs: date, headline. A source URL is optional.
+- date: July, 2026
+  headline: "Feng Pan was invited to give a talk at the 2026 World Artificial Intelligence Conference (WAIC)."
+  url: "https://mp.weixin.qq.com/s/hK6-2qUlDs-WAqm7v7qb8Q?scene=1"
+
+- date: 25 June, 2026
+  headline: "New preprint: Efficient foundation decoders for fault-tolerant quantum computing (arXiv:2606.27119)."
+  url: "https://arxiv.org/abs/2606.27119"
+
 - date: 6 June, 2026
   headline: "The group welcomes inquiries from PhD applicants, research assistants, visiting students, and collaborators."
 
 - date: 2 June, 2026
   headline: "Feng Pan gave an invited talk at Google Quantum AI on differentiable maximum likelihood noise estimation for quantum error correction."
+
+- date: 1 June, 2026
+  headline: "New preprint: Parallelizing Large-Scale Tensor Network Contraction on Multiple GPUs (arXiv:2606.01852)."
+  url: "https://arxiv.org/abs/2606.01852"
+
+- date: 17 May, 2026
+  headline: "New preprint: Maximum Likelihood Decoding of Quantum Error Correction Codes (arXiv:2605.17230)."
+  url: "https://arxiv.org/abs/2605.17230"
 
 - date: May, 2026
   headline: "Feng Pan is serving as a program committee member for the Asian Conference of Quantum Information Science 2026."

@@ -22,7 +22,13 @@ layout: default
     {% for article in site.data.news limit:20 %}
     <article class="home-news-item">
       <time class="home-news-date">{{ article.date }}</time>
-      <div class="home-news-headline">{{ article.headline }}</div>
+      <div class="home-news-headline">
+        {% if article.url %}
+        <a href="{{ article.url }}" target="_blank" rel="noopener noreferrer">{{ article.headline }}</a>
+        {% else %}
+        {{ article.headline }}
+        {% endif %}
+      </div>
     </article>
     {% endfor %}
   </div>
