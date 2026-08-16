@@ -1,6 +1,10 @@
 # News items shown on the home page and news archive.
 # Keep newest items first. Up to 20 items are shown on the home page; all appear on /news/.
 # Each entry needs: date, headline. A source URL is optional.
+- date: 13 August, 2026
+  headline: "New preprint: Classical Simulation and Design Frontiers for IBM's Doped Clifford Sampling Experiment (arXiv:2608.13110)."
+  url: "https://arxiv.org/abs/2608.13110"
+
 - date: July, 2026
   headline: "Feng Pan was invited to give a talk at the 2026 World Artificial Intelligence Conference (WAIC)."
   url: "https://mp.weixin.qq.com/s/hK6-2qUlDs-WAqm7v7qb8Q?scene=1"
