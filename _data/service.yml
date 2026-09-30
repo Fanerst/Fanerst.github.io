@@ -1,5 +1,8 @@
 # Service items shown on the About page.
 - role: "PC Member"
+  organization: "Quantum Information Processing 2027 (QIP 2027)"
+
+- role: "PC Member"
   organization: "Asian Conference of Quantum Information Science 2026"
 
 - role: "Journal Referee"
