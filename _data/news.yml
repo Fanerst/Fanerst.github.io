@@ -1,6 +1,18 @@
 # News items shown on the home page and news archive.
 # Keep newest items first. Up to 20 items are shown on the home page; all appear on /news/.
 # Each entry needs: date, headline. A source URL is optional.
+- date: 5 November, 2026
+  headline: "New preprint: Certifying quantum code and circuit distances at scale (arXiv:2611.08247)."
+  url: "https://arxiv.org/abs/2611.08247"
+
+- date: 5 October, 2026
+  headline: "New preprint: CT-bMPS: Approximate Tensor Network Contraction with Boundary MPS on Contraction Trees (arXiv:2610.06574)."
+  url: "https://arxiv.org/abs/2610.06574"
+
+- date: 30 September, 2026
+  headline: "New preprint: Exact Maximum Likelihood Decoding beyond Treewidth via Rank-Decomposition Dynamic Programming (arXiv:2609.39556)."
+  url: "https://arxiv.org/abs/2609.39556"
+
 - date: September, 2026
   headline: "Feng Pan has been selected as a program committee member for Quantum Information Processing 2027 (QIP 2027)."
   url: "https://qipconference.org/2027/call/"

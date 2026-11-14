@@ -33,7 +33,7 @@ permalink: /about/
 
 <div class="section-card">
 <h3>Bio</h3>
-<p>I am a tenure-track Assistant Professor in the Science, Mathematics and Technology Cluster at the Singapore University of Technology and Design. Previously, I was a Research Fellow at the Centre for Quantum Technologies, National University of Singapore, working with Prof. Patrick Rebentrost.</p>
+<p>I am a tenure-track Assistant Professor in the Science, Mathematics and Technology Cluster at the Singapore University of Technology and Design and a <a href="{{ site.links.cqt }}">CQT Fellow</a> at the Centre for Quantum Technologies. Previously, I was a Research Fellow at CQT at the National University of Singapore, working with Prof. Patrick Rebentrost.</p>
 <p>I received my PhD in 2022 from the Institute of Theoretical Physics, Chinese Academy of Sciences, supervised by Prof. Pan Zhang. My research interests lie at the intersection of statistical physics, quantum computing, tensor network algorithms, and machine-learning-assisted scientific computing.</p>
 </div>
 

@@ -6,7 +6,8 @@ permalink: /
 ---
 
 <h2 class="home-hero">{{ site.name }}</h2>
-<p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
+<p class="home-hero-sub">{{ site.title }}, {{ site.institution }}<br>
+<a href="{{ site.links.cqt }}">CQT Fellow, Centre for Quantum Technologies</a></p>
 
 <div class="chip-container" markdown="0">
 <a href="{{ '/research/' | relative_url }}" class="chip">Tensor Networks</a>
